@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerador de Tabuada</h1>
+    <p>Digite um número para ver sua tabuada:</p>
+    
+    <input type="number" id="numero" placeholder="Digite um número">
+    <button onclick="gerarTabuada()">Gerar Tabuada</button>
+    <button onclick="limparResultado()">Limpar</button>
+    
+    <h2>Resultado:</h2>
+    <div id="resultado"></div>
+
+    <script src="atividade.js"></script>
+</body>
+</html>
+
+
